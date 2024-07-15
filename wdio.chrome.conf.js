@@ -34,7 +34,7 @@ exports.config = {
     // Framework options
     cucumberOpts: {
         require: ['./step-definition/*.js'],
-        format: ['json:./reports/json/cucumber_report.json'],
+        format: ['json:./reports/json/volvosafety_report.json'],
         dryRun: false,
         failFast: false
     },
