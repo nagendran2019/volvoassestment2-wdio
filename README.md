@@ -20,6 +20,8 @@ It takes care of testing over cross browsers as well like firefox and edge in ad
   
   OR we can also use docker image - volvotest2-wdio.
 
+For Prallel processing refer, K8s files, details are below.
+
 Evidences-
 
 ![image](https://github.com/user-attachments/assets/14e7f1d7-461b-4c3b-8c78-b74a29d23c52)
@@ -46,7 +48,11 @@ Evidences-
 * wdio.edge.conf.js: WebdriverIO configuration file for edge.
 * package.json: Node.js project configuration file.
 * expected_image.png: Baseline image for visual comparison.
-* 
+* template to be used along with other templates to run test casess in parallel over cross browsers
+* job-volvo-safety-wdio-chrome-tests.yaml
+* job-volvo-safety-wdio-firefox-tests.yaml
+* job-volvo-safety-wdio-edge-tests.yaml
+
 5. To run the tests, use the following command:
 ```bash
 npx wdio wdio.conf.js
