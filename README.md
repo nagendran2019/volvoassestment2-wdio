@@ -15,32 +15,21 @@ This project demonstrates how to use WebdriverIO with CucumberJS to perform visu
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/nagendran2019/volvoassestment2-wdio
 
 2. cd your-repo-name
 3. npm install
 4. Project structure-
 
-features/: Contains Cucumber feature files.
-step-definitions/: Contains the step definition files for Cucumber.
-reports/: Directory for storing the JSON reports.
-wdio.conf.js: WebdriverIO configuration file.
-package.json: Node.js project configuration file.
-expected_image.png: Baseline image for visual comparison.
-
-my-project/
-├── features/
-│   └── my-feature.feature
-├── step-definitions/
-│   └── my-steps.js
-├── reports/
-│   └── json/
-├── wdio.conf.js
-├── package.json
-├── expected_image.png
-├── README.md
-
+* features/: Contains Cucumber feature files.
+* step-definitions/: Contains the step definition files for Cucumber.
+* reports/: Directory for storing the JSON reports.
+* wdio.conf.js: WebdriverIO configuration file.
+* package.json: Node.js project configuration file.
+* expected_image.png: Baseline image for visual comparison.
+* 
 5. To run the tests, use the following command:
+```bash
 npx wdio wdio.conf.js
 
-6. Open the ./reports/cucumber-json-report.html file in a web browser to view the test results.
+6. Open the ./reports/<>.json file to view the test results.
