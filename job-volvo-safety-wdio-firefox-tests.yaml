@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: WdioFeatureTest-Logout
+  labels:
+    jobgroup: jobWdioTests
+spec:
+  template:
+    metadata:
+      name: jobWdioTests
+      labels:
+        jobgroup: jobWdioTests
+    spec:
+      containers:
+      - name: Firefox Volvo safety tests
+        image: volvotest2-wdio
+        command: ["npx wdio wdio.firefox.conf.js"]
+      restartPolicy: Never
