@@ -5,6 +5,8 @@ Second assignment.
 
 This project demonstrates how to use WebdriverIO with CucumberJS to perform visual image comparisons and text validations on a web page. The tests are configured to run on a Chrome browser and generate HTML reports based on the test results.
 
+It takes care of testing over cross browsers as well like firefox and edge in addition to chrome.
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/en/) (v12 or higher)
@@ -24,7 +26,9 @@ This project demonstrates how to use WebdriverIO with CucumberJS to perform visu
 * features/: Contains Cucumber feature files.
 * step-definitions/: Contains the step definition files for Cucumber.
 * reports/: Directory for storing the JSON reports.
-* wdio.conf.js: WebdriverIO configuration file.
+* wdio.chrome.conf.js: WebdriverIO configuration file for Chrome.
+* wdio.firefox.conf.js: WebdriverIO configuration file for firefox.
+* wdio.edge.conf.js: WebdriverIO configuration file for edge.
 * package.json: Node.js project configuration file.
 * expected_image.png: Baseline image for visual comparison.
 * 
