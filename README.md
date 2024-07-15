@@ -11,6 +11,21 @@ It takes care of testing over cross browsers as well like firefox and edge in ad
 
 - [Node.js](https://nodejs.org/en/) (v12 or higher)
 - [npm](https://www.npmjs.com/get-npm)
+- Webdriverio
+- wdio-image-comparison-service
+- wdio/cucumber-framework
+- cucumber-html-reporter
+- sync
+- wdio/local-runner.
+  
+  OR we can also use docker image - volvotest2-wdio.
+
+Evidences-
+
+![image](https://github.com/user-attachments/assets/14e7f1d7-461b-4c3b-8c78-b74a29d23c52)
+![image](https://github.com/user-attachments/assets/8c7eba37-197a-4adf-86c8-9ba2316b3bc5)
+![image](https://github.com/user-attachments/assets/00e80aa6-084b-480c-abb0-8c1c47fa9c56)
+![image](https://github.com/user-attachments/assets/55cdd750-c179-4f0a-86e5-220fd697a6b0)
 
 ## Installation
 
