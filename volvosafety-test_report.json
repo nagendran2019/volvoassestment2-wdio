@@ -1,0 +1,71 @@
+{
+    "stats": {
+      "suites": 1,
+      "tests": 2,
+      "passes": 2,
+      "pending": 0,
+      "failures": 0
+    },
+    "features": [
+      {
+        "name": "Image comparison for slider with icons",
+        "elements": [
+          {
+            "name": "Compare images of the sliderWithIcons:icon2 section",
+            "type": "scenario",
+            "steps": [
+              {
+                "keyword": "Given ",
+                "name": "I am on the Volvo Cars safety highlights page",
+                "result": {
+                  "status": "passed"
+                }
+              },
+              {
+                "keyword": "When ",
+                "name": "I navigate to the sliderWithIcons:icon2 section",
+                "result": {
+                  "status": "passed"
+                }
+              },
+              {
+                "keyword": "Then ",
+                "name": "I take a screenshot and compare it with the baseline image",
+                "result": {
+                  "status": "passed"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Validate inner text in the sliderWithIcons:icon2 section",
+            "type": "scenario",
+            "steps": [
+              {
+                "keyword": "Given ",
+                "name": "I am on the Volvo Cars safety highlights page",
+                "result": {
+                  "status": "passed"
+                }
+              },
+              {
+                "keyword": "When ",
+                "name": "I navigate to the sliderWithIcons:icon2 section",
+                "result": {
+                  "status": "passed"
+                }
+              },
+              {
+                "keyword": "Then ",
+                "name": "I should see the inner text matches string",
+                "result": {
+                  "status": "passed"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
