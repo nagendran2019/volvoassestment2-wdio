@@ -32,4 +32,4 @@ This project demonstrates how to use WebdriverIO with CucumberJS to perform visu
 ```bash
 npx wdio wdio.conf.js
 
-6. Open the ./reports/<>.json file to view the test results.
+6. Open the ./reports/volvosafety_cucumber.json file to view the test results.
